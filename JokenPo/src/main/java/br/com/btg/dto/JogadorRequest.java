@@ -23,6 +23,15 @@ public class JogadorRequest {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
+	
+	
+
+	/**
+	 * @param nome
+	 */
+	public JogadorRequest(String nome) {	
+		this.nome = nome;
+	}
 
 	@Override
 	public String toString() {
