@@ -2,7 +2,7 @@ package br.com.btg.dto;
 
 import javax.validation.constraints.NotNull;
 
-import br.com.btg.JogadasEnum;
+import br.com.btg.enums.JogadasEnum;
 import br.com.btg.model.Jogador;
 
 public class JogadasResponse {

@@ -2,7 +2,7 @@ package br.com.btg.model;
 
 import javax.persistence.Entity;
 
-import br.com.btg.JogadasEnum;
+import br.com.btg.enums.JogadasEnum;
 
 @Entity
 public class Jogadas {

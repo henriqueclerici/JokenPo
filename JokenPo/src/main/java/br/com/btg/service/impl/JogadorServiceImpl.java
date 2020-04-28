@@ -1,11 +1,15 @@
 package br.com.btg.service.impl;
 
 import java.util.List;
+
+import org.springframework.stereotype.Service;
+
 import br.com.btg.dto.JogadorRequest;
 import br.com.btg.dto.JogadorResponse;
 import br.com.btg.exception.JokenPoGameException;
 import br.com.btg.service.JogadorService;
 
+@Service
 public class JogadorServiceImpl implements JogadorService {
 
 	@Override
